@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historia de Free Fire</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #0d0d0d;
+      color: #f5f5f5;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(13, 13, 13, 0.95);
+      backdrop-filter: blur(10px);
+      z-index: 1000;
+      border-bottom: 2px solid #ff6b00;
+      padding: 0.8rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo {
+      font-weight: 800;
+      font-size: 1.3rem;
+      color: #ff6b00;
+      letter-spacing: 1px;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff6b00;
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 6rem 2rem 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      border-bottom: 1px solid #222;
+    }
+
+    section h1 {
+      font-size: clamp(2.2rem, 6vw, 3.8rem);
+      font-weight: 900;
+      margin-bottom: 1rem;
+      background: linear-gradient(90deg, #ff6b00, #ff9a3c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    section h2 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      color: #ff6b00;
+      margin-bottom: 1.5rem;
+      font-weight: 700;
+    }
+
+    section p {
+      max-width: 800px;
+      font-size: 1.15rem;
+      color: #ddd;
+      margin-bottom: 1.5rem;
+    }
+
+    .content {
+      max-width: 1000px;
+      width: 100%;
+    }
+
+    .img-container {
+      margin: 1.5rem 0;
+      max-width: 700px;
+      width: 100%;
+    }
+
+    .img-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(255, 107, 0, 0.25);
+      border: 2px solid #333;
+      object-fit: cover;
+    }
+
+    .highlight {
+      color: #ff6b00;
+      font-weight: 600;
+    }
+
+    .timeline {
+      text-align: left;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .timeline-item {
+      background: #1a1a1a;
+      border-left: 4px solid #ff6b00;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .timeline-item strong {
+      color: #ff9a3c;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+
+    #portada {
+      background: radial-gradient(ellipse at center, #1a1200 0%, #0d0d0d 70%);
+    }
+
+    #portada .subtitle {
+      font-size: 1.4rem;
+      color: #aaa;
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 2rem;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #333;
+    }
+
+    @media (max-width: 700px) {
+      nav ul {
+        gap: 0.7rem;
+        font-size: 0.8rem;
+      }
+      section {
+        padding: 5rem 1.2rem 3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">FREE FIRE</div>
+    <ul>
+      <li><a href="#portada">Inicio</a></li>
+      <li><a href="#origenes">Orígenes</a></li>
+      <li><a href="#lanzamiento">Lanzamiento</a></li>
+      <li><a href="#crecimiento">Crecimiento</a></li>
+      <li><a href="#evolucion">Evolución</a></li>
+      <li><a href="#impacto">Impacto</a></li>
+      <li><a href="#actualidad">Actualidad</a></li>
+    </ul>
+  </nav>
+
+  <!-- 1. PORTADA -->
+  <section id="portada">
+    <div class="content">
+      <h1>Historia de Free Fire</h1>
+      <p class="subtitle">De un pequeño estudio vietnamita a fenómeno mundial de los battle royale móviles</p>
+      <div class="img-container">
+        <img src="images/freefire1.jpg" alt="Logo y portada de Free Fire">
+      </div>
+      <p>Una presentación sobre el juego que conquistó millones de jugadores en todo el mundo</p>
+    </div>
+  </section>
+
+  <!-- 2. ORÍGENES -->
+  <section id="origenes">
+    <div class="content">
+      <h2>Orígenes y Creación</h2>
+      <div class="img-container">
+        <img src="images/freefire2.jpg" alt="111dots Studio y Garena">
+      </div>
+      <p>
+        <span class="highlight">Free Fire</span> fue desarrollado por <strong>111dots Studio</strong>, un pequeño estudio independiente con sede en Vietnam. 
+        La idea nació a mediados de 2017: crear un battle royale accesible para dispositivos móviles de gama baja.
+      </p>
+      <p>
+        <strong>Garena</strong> (filial de Sea Limited, fundada por Forrest Li) adquirió los derechos de publicación y se involucró activamente en el desarrollo.
+      </p>
+    </div>
+  </section>
+
+  <!-- 3. LANZAMIENTO -->
+  <section id="lanzamiento">
+    <div class="content">
+      <h2>El Lanzamiento</h2>
+      <div class="img-container">
+        <img src="images/freefire3.jpg" alt="Lanzamiento de Free Fire 2017">
+      </div>
+      <p>
+        Las primeras pruebas Alpha comenzaron en <strong>agosto de 2017</strong> en Vietnam. 
+        El 23 de agosto se liberó el primer APK (fecha que Garena celebra como aniversario).
+      </p>
+      <p>
+        El <span class="highlight">lanzamiento oficial global</span> fue el <strong>4 de diciembre de 2017</strong> para Android e iOS. 
+        Extremadamente ligero y optimizado para celulares modestos.
+      </p>
+    </div>
+  </section>
+
+  <!-- 4. CRECIMIENTO -->
+  <section id="crecimiento">
+    <div class="content">
+      <h2>Crecimiento Explosivo (2018-2020)</h2>
+      <div class="img-container">
+        <img src="images/freefire4.jpg" alt="Jugadores de Free Fire en el mundo">
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <strong>2018</strong>
+          Alrededor de 182 millones de descargas. Éxito masivo en Brasil, sudeste asiático y Latinoamérica.
+        </div>
+        <div class="timeline-item">
+          <strong>2019</strong>
+          Juego móvil más descargado del mundo. Premio “Mejor Juego de Votación Popular” en Google Play.
+        </div>
+        <div class="timeline-item">
+          <strong>2020</strong>
+          Récord Guinness como battle royale más descargado. Más de 80 millones de usuarios activos diarios.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. EVOLUCIÓN -->
+  <section id="evolucion">
+    <div class="content">
+      <h2>Evolución y Free Fire MAX</h2>
+      <div class="img-container">
+        <img src="images/freefire5.jpg" alt="Free Fire MAX y actualizaciones">
+      </div>
+      <p>
+        Se añadieron personajes con habilidades, nuevos mapas, modos (Clash Squad), mascotas y eventos constantes.
+      </p>
+      <p>
+        En <strong>septiembre de 2021</strong> nació <span class="highlight">Free Fire MAX</span> con gráficos mejorados y compatibilidad de cuentas.
+      </p>
+      <p>
+        Actualizaciones regulares (OB) y colaboraciones con anime, artistas y celebridades mantienen el juego vivo.
+      </p>
+    </div>
+  </section>
+
+  <!-- 6. IMPACTO -->
+  <section id="impacto">
+    <div class="content">
+      <h2>Impacto Global y Esports</h2>
+      <div class="img-container">
+        <img src="images/freefire6.jpg" alt="Esports y comunidad de Free Fire">
+      </div>
+      <p>
+        Fenómeno cultural en Brasil, Indonesia, México y muchos otros países. Generó miles de millones en ingresos.
+      </p>
+      <p>
+        Escena competitiva profesional (Free Fire World Series) y una enorme comunidad de streamers y creadores.
+      </p>
+      <p>
+        Su gran ventaja: <span class="highlight">accesibilidad</span>. Cualquiera puede jugar partidas rápidas e intensas.
+      </p>
+    </div>
+  </section>
+
+  <!-- 7. ACTUALIDAD -->
+  <section id="actualidad">
+    <div class="content">
+      <h2>Free Fire Hoy (2026)</h2>
+      <div class="img-container">
+        <img src="images/freefire7.jpg" alt="Free Fire 9º aniversario">
+      </div>
+      <p>
+        En 2026 celebró su <strong>9º aniversario</strong> con nuevo lobby 3D, sistemas de Skill Boost, Weapon Awakening y colaboraciones como Naruto Shippuden.
+      </p>
+      <p>
+        Sigue siendo uno de los juegos móviles más jugados del mundo, con más de 100 millones de usuarios activos.
+      </p>
+      <p style="margin-top: 2rem; font-size: 1.3rem; color: #ff6b00; font-weight: 700;">
+        ¡Booyah! De un estudio pequeño a un ícono global.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Presentación Historia de Free Fire · Incluye 7 imágenes (mínimo 4)</p>
+    <p>Imágenes: images/freefire1.jpg → freefire7.jpg</p>
+  </footer>
+
+</body>
+</html>
